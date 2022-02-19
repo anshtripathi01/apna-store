@@ -1,11 +1,11 @@
 
 .filters-container {
-    margin: 0 0 0 1rem;
+    margin-left: 1rem;
     overflow-y: scroll;
     width: 15rem;
 }
 
 .filter-title {
     font-size: 1.1rem;
-    margin: 0 2rem 0 0;
+    margin-right: 2rem;
 }
