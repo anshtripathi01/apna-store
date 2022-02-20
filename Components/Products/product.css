@@ -1,0 +1,47 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.filter {
+    font-size: 1.1rem;
+    margin: 0 2rem 0 0;
+}
+
+aside {
+    height: 100%;
+    margin-left: 1rem;
+    width: 15rem;
+
+}
+
+.products-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+
+    width: 12rem;
+    height: 18.5rem;
+    margin: 1rem;
+}
+
+.price {
+    margin: 0.2rem 0 0 1.5rem;
+}
+
+.discount-price {
+    margin: 0.2rem 0 0 0rem;
+    text-decoration: line-through;
+}
+
+.product-title {
+    margin: 0.1rem 0 0 1.5rem;
+
+}
