@@ -2,9 +2,16 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-
 }
-
+.logout-btn{
+    font-size: 1.5rem;
+}
+.logout-btn:hover{
+    color: #000;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
 .filter {
     font-size: 1.1rem;
     margin: 0 2rem 0 0;
@@ -14,7 +21,6 @@ aside {
     height: 100%;
     margin-left: 1rem;
     width: 15rem;
-
 }
 
 .products-container {
@@ -26,12 +32,17 @@ aside {
 }
 
 .card {
-
     width: 12rem;
     height: 18.5rem;
     margin: 1rem;
 }
+.products-container a{
+    color: #000;
+}
 
+.btn{
+    cursor: pointer;
+}
 .price {
     margin: 0.2rem 0 0 1.5rem;
 }
@@ -40,8 +51,9 @@ aside {
     margin: 0.2rem 0 0 0rem;
     text-decoration: line-through;
 }
-
+.like-btn:hover{
+    color: #ff0000;
+}
 .product-title {
     margin: 0.1rem 0 0 1.5rem;
-
 }

@@ -4,8 +4,16 @@
     overflow-y: scroll;
     width: 15rem;
 }
-
+.nav-link{
+    font-size: 1.2rem;
+}
 .filter-title {
     font-size: 1.1rem;
     margin-right: 2rem;
+}
+.logout-btn{
+    font-size: 1.5rem;
+}
+.logout-btn:hover{
+    color: #000;
 }

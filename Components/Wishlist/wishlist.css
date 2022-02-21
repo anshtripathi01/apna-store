@@ -7,13 +7,22 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-
 }
-
+.logout-btn{
+    font-size: 1.5rem;
+}
+.logout-btn:hover{
+    color: #000;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
 .btn {
     width: 100%;
 }
-
+.wishlist-container a{
+padding-left: 0;
+}
 .card {
     width: 12rem;
     height: 18.5rem;
@@ -26,7 +35,6 @@ body {
 
 .product-title {
     margin: 0.1rem 0 0 1.5rem;
-
 }
 
 .like-btn {

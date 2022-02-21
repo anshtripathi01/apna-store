@@ -9,7 +9,12 @@ body {
     margin: 3rem;
     background-color: #fff1f2;
 }
-
+.logout-btn{
+    font-size: 1.5rem;
+}
+.logout-btn:hover{
+    color: #000;
+}
 
 .card {
     width: 11rem;
@@ -33,7 +38,9 @@ body {
     flex-direction: column;
     line-height: 1.7;
 }
-
+.nav-link{
+    font-size: 1.2rem;
+}
 .home-image {
     width: 40rem;
     height: 30rem;
@@ -54,3 +61,26 @@ body {
 .brand-container .card {
     height: 7rem;
 }
+
+/* meadia Query for responsiveness */
+@media (max-width:972px) {
+    
+    .header-container {
+        flex-wrap: wrap;
+        margin: 4rem;
+        padding: 0 10.5rem;
+        background-color: #fff1f2;
+    }
+    .home-image{
+        width: 25rem;
+        height: 20rem;
+    }
+    .nav{
+        max-width: fit-content;
+    }
+    
+.btn{
+    width: 15rem;
+}
+}
+

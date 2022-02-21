@@ -19,44 +19,58 @@
         <h1>ApnaStore</h1>
         <nav class="navbar">
             <ul class="nav">
-                <li class="nav-link"> <a class="" href="#">Home</a>
+                <li class="nav-link"> <a href="/index.html">Home</a>
                 </li>
-                <li class="nav-link"> <a class="" href="#">Shop</p></a>
+                <li class="nav-link"> <a href="/Components/Products/product.html">Shop</p></a>
                 </li>
             </ul>
             <ul class="user-nav-link">
                 <i class="searchbar fa-solid fa-magnifying-glass"></i> <input type="search"
-                    placeholder="search a product">
-                <li class="nav-link"><a href="https://www.github.com/anshtripathi01" target="_blank"><i
+                    placeholder="Search a product">
+                <li class="nav-link"><a href="/Components/Auth/login.html" target="_blank"><i
                             class="nav-icon fa-solid fa-user"></i></a></li>
-                <li class="nav-link"><a href=""><i class="nav-icon fa-solid fa-heart"></i></a></li>
-
-                <li class="nav-link"><a href=""><i class="nav-icon fa-solid fa-cart-shopping"></i></a></li>
+                <li class="nav-link"><a href="/Components/Wishlist/wishlist.html"><i class="nav-icon fa-solid fa-heart"></i></a></li>
+                <li class="nav-link"><a href="/Components/Cart/cart.html"><i class="nav-icon fa-solid fa-cart-shopping"></i></a></li>
+                <li class="nav-link"> <a href="/Components/Auth/login.html"><i class="logout-btn fa-solid fa-right-from-bracket"></i></a> </li>
             </ul>
         </nav>
     </header>
-    <aside class="filters-container">
-        <p> <span class="filter-title">Filters </span><a href="">Clear All</a></p>
+    <aside>
+        <p> <span class="filter">Filters </span><a href="">Clear All</a></p>
 
         <h4> Sort By Price</h4>
-        <p><input type="radio">
+        <p><input type="radio" name="Sort By Price" checked>
             Featured</p>
-        <p><input type="radio">
+        <p><input type="radio" name="Sort By Price">
             Price Low to High</p>
-        <p><input type="radio">
+        <p><input type="radio" name="Sort By Price">
             Price High to Low</p>
-        <h4>Category</h4>
-        <p><input type="checkbox">Men Clothing</p>
+        <h4>Sort By Category</h4>
+        <p><input type="checkbox" checked>Men Clothing</p>
         <p><input type="checkbox">Women Clothing</p>
-        <h4>Rating</h4>
-
-        <p><input type="radio">4 Stars & above</p>
-        <p><input type="radio">3 Stars & above</p>
-        <p><input type="radio">2 Stars & above</p>
-        <p><input type="radio">1 Stars & above</p>
-
+        <h4>Sort By Rating</h4>
+        <p><input type="radio" name="Sort By Rating" checked>4 Stars & above</p>
+        <p><input type="radio" name="Sort By Rating">3 Stars & above</p>
+        <p><input type="radio" name="Sort By Rating">2 Stars & above</p>
+        <p><input type="radio" name="Sort By Rating">1 Stars & above</p>
     </aside>
 
+    <footer>
+
+        <p>Made With Love By Ansh</p>
+        <ul class="footer-social">
+            <li class="footer-link"><a href="https://www.linkedin.com/anshtripathi01" target="blank"><i
+                        class="fab fa-linkedin fa-lg" aria-hidden="true"></i>
+                </a></li>
+            <li class="footer-link"><a href="https://www.github.com/anshtripathi01" target="blank"><i
+                        class="fab fa-github fa-lg" aria-hidden="true"></i>
+                </a></li>
+            <li class="nav-link"><a href="https://www.twitter.com/ansh_tripathi01"><i class="fab fa-twitter fa-lg"
+                        aria-hidden="true"></i></a></li>
+        </ul>
+        <h6>&copy; 2021 ApnaUI Design</h6>
+
+    </footer>
 </body>
 
 </html>
