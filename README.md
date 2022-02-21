@@ -38,6 +38,7 @@ Start the server
 ## Color Reference
 - ![#ff6347](https://via.placeholder.com/15/ff6347/000000?text=+) `#ff6347`
 - ![#FDF2DB](https://via.placeholder.com/15/FDF2DB/000000?text=+) `#FDF2DB`
+- ![#000](https://via.placeholder.com/15/000/000000?text=+) `#000`
 
 
 | Color             | Hex                                                                |
