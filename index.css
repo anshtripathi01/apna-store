@@ -76,6 +76,7 @@ body {
         height: 20rem;
     }
   .nav{
+        flex-direction:column;
         max-width: fit-content;
     }
     
