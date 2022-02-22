@@ -84,7 +84,7 @@ I'm currently learning Frontend Developement and I like to calloborate with Deve
 ## 🔗 Links
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/ansh_tripathi01)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anshtripathi01/)
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://anshtripathi-portfolio.netlify.app/)
+[![portfolio](https://img.shields.io/badge/my_portfolio-ff6347?style=for-the-badge&logo=ko-fi&logoColor=white)](https://anshtripathi-portfolio.netlify.app/)
 
 
 ## 🛠 Skills
