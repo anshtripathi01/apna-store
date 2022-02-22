@@ -75,7 +75,7 @@ body {
         width: 25rem;
         height: 20rem;
     }
-  .nav{
+  .navbar{
         flex-direction:column;
         max-width: fit-content;
     }
